@@ -1,0 +1,313 @@
+
+
+/* another form style */
+
+.contactform_img{
+	margin-top: 90px ;
+}
+.container66{
+	margin-top: 25% !important;
+	margin-left: 35% !important;
+	width: 100%;
+	height: 100%;
+}
+  .contact {
+	width: 750px;
+	min-width: 750px;
+	min-height: 550px;
+	height: 600px;
+	border-radius: 20px;
+	padding: 20px;
+	position: relative;
+	/* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+	background-color: #025fc8;
+	border: 5px solid #fff;
+	margin-left: 90px;
+  }
+  
+  .right {
+	height: 500px;
+	width: 350px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 20px;
+	padding: 20px;
+	left: -100px;
+	background-color: #fff;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+	  rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+	border: 5px solid #00b4db;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+  }
+  
+  /* .right_heading {
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #00b4db;
+	margin-top: 10px;
+  } */
+  
+  .left {
+	position: absolute;
+	right: 50px;
+  }
+  
+  .heading {
+	font: 35px sans-serif;
+	letter-spacing: 2.5px;
+	color: #fff;
+	transform: translateX(-195px);
+  }
+  .logocontact{
+	width: 100%;
+	height: 100%;
+  }
+  .para {
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	color: #fff;
+	transform: translateX(-190px);
+  }
+  
+  .form {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding-right: 20px;
+  }
+  
+  .field {
+	position: relative;
+  }
+  
+  input,
+  textarea {
+	width: 200px;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	resize: none;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 30px;
+	padding-top: 30px;
+  }
+  
+  .label {
+	font-size: 16pxpx;
+	color: #fff;
+	padding-left: 10px;
+	position: absolute;
+	left: -160px;
+	bottom: 25px;
+  }
+  
+  .t_msg {
+	position: absolute;
+	left: 0;
+	bottom: 25px;
+	left: -160px;
+  }
+  
+  .btn1 {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	white-space: nowrap;
+	background: linear-gradient(180deg, #00b4db 0%, #6dd5ed 100%);
+	border-radius: 100px;
+	border: 0.5px solid rgba(255, 255, 255, 0.8);
+	border-width: 0.5px 0.5px 0.5px 0.5px;
+	padding: 4px 22px 5px 22px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+	  rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	color: #fff;
+	font-size: 16px;
+	width: 120px;
+	height: 40px;
+  }
+  
+  .btn1:hover {
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+	  rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  }
+  
+  .tabs {
+	padding: 30px 20px 0;
+  }
+  
+  .tab {
+	font-size: 20px;
+	padding: 20px 30px;
+	margin-bottom: 30px;
+	border: 1px solid #fff;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+	background-color: #025fc8;
+  }
+  
+  .tab i {
+	padding-right: 20px;
+	color: #ffffff;
+  }
+  
+  .social {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10px;
+  }
+  
+  .social i {
+	color: #00b4db;
+	font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 950px) {
+	.right {
+	  width: 250px;
+	  left: -5px;
+	  height: calc(100% + 10px);
+	  border: none;
+	  border-top-right-radius: 0px;
+	  border-bottom-right-radius: 0px;
+	}
+  
+	.tabs {
+	  padding: 55px 0 0 0;
+	}
+  
+	.tab {
+	  padding: 20px 10px;
+	  margin-bottom: 50px;
+	  font-size: 18px;
+	}
+  
+	.tab i {
+	  padding-right: 10px;
+	  font-size: 16px;
+	}
+  }
+  
+
+
+
+
+  :root {
+	--prim: transparent;
+	--sec: #fcdc6a21;
+  }
+  
+  /* *,
+  *::before,
+  *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+   */
+
+  .container66 {
+	height: 300px;
+	width: 300px;
+	position: relative;
+  }
+  
+  .profile {
+	/* background-image: url(https://static.vecteezy.com/system/resources/previews/002/514/376/original/cute-cat-in-the-box-cartoon-funny-cat-play-with-box-cat-cartoon-illustration-vector.jpg); */
+	background-image: url('../../assets/contactrigtimg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	right: 50%;
+	top: 50%;
+	transform: translate(50%, -50%);
+	border-radius: 50%;
+	transition: transform 0.4s ease-in-out;
+  }
+  
+  .profile::before {
+	content: "	Contact Us";
+	font-family: poppins;
+	font-weight: bold;
+	color: #fff;
+	padding: 5px 8px;
+	position: absolute;
+	bottom: -4%;
+	right: 50%;
+	transform: translateX(50%);
+	border-radius: 9999px;
+	background-color: #025fc8;
+  }
+  
+  .social {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	place-items: center;
+	gap: 150px;
+	transform: scale(0.5);
+	transform-origin: center;
+	transform-box: fill-box;
+  }
+  
+  .social a {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	place-items: center;
+	display: grid;
+	fill: #fff;
+	transition: all 0.1s ease-in-out;
+	position: relative;
+  }
+  .social a:hover,
+  .social a:focus {
+	background-color: #aab8c2;
+  }
+  .social a:hover > svg,
+  .social a:focus > svg {
+	transform: scale(1.2);
+	transition: all 0.2s ease-in-out;
+  }
+  
+  .social .twitter {
+	background-color: #1da1f2;
+  }
+  .social .facebook {
+	background-color: #4267b2;
+  }
+  
+  .social .linkdin {
+	background-color: #0072b1;
+	clip-path: circle(50% at 50% 50%);
+  }
+  .social .instagram {
+	background-color: #e1306c;
+  }
+  
+  .container66:hover .social {
+	transform: scale(1);
+	animation: rotate 20s linear infinite;
+  }
+  
+  .container66:hover .social:hover {
+	animation-play-state: paused;
+  }
+  .container66:hover .profile {
+	transform: translate(50%, -50%) scale(0.8);
+  }
+  
+  @keyframes rotate {
+	100% {
+	  transform: scale(1) rotate(360deg);
+	}
+  }
+  

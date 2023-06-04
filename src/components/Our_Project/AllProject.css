@@ -1,0 +1,130 @@
+.MainTitle{
+    margin-top: 80px;
+    font-size: 20px;
+    user-select: none;
+}
+
+
+
+
+/* cards */
+
+.main-card{
+    display: flex !important;
+    /* background-image:linear-gradient(to right, #5F64FD, #ffffff , #5F64FD);   */
+    
+    /* background-color:  #d1dcff ; */
+    margin-top: 60px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    width: 100%;
+    /* margin: 20px; */
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .contact_card{
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        #025fc8, 
+        rgba(0, 0, 0, 0)
+      ) 1 100% !important;
+    background-image: linear-gradient(to bottom, 
+    #b7d8fd, 
+    rgba(0, 0, 0, 0));
+
+  }
+  /* .card {
+      width: 100%;   */
+      /* background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8); */
+      /* padding: 20px; */
+      /* font-size: 30px; */
+     /* text-align: center;  
+  } */
+
+
+
+
+  .proname{
+    text-align: center;
+    color: #025fc8;  
+}
+
+.prodetiels{
+    text-align: center;
+    /* width: 50% !important; */
+   font-size: 100%;
+   color: #000000 !important;
+   margin-left: 20%;
+   margin-right: 20% ;
+}
+
+
+.projects_footer{
+    color: #000000;
+    border: #025fc8 2px solid;
+    text-align: center;
+justify-content: center;
+background-image: linear-gradient(to bottom, 
+#b7d8fd, 
+rgba(0, 0, 0, 0));
+}
+
+.projects_footer_icon{
+    color: #025fc8 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

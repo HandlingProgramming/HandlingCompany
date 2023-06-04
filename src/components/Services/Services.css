@@ -1,0 +1,113 @@
+/* .main{
+	margin-top: 150px !important;
+
+} */
+/* .trigger_det{
+  background-color: #5F64FD;
+  border: #025fc8;
+} */
+
+
+.main_btns{
+margin-bottom: 4%;
+margin-top: 4%;
+}
+.model_btn{
+  width: 100% !important;
+  height: 20% !important;
+  border-radius: 50px !important;
+  font-weight: bold !important;
+  margin-bottom: 1% !important;
+  background-color: #025fc8 !important;
+  font-size: 150% !important;
+}
+.model_btn:hover{
+/* box-shadow: 10px 10px 10px 5px #95c7ff !important; */
+box-shadow: 0 0.5em 0.5em -0.4em  black !important;
+
+}
+.modal-title{
+  background-color: #95c0f0;
+  padding: 10px !important;
+  border-radius: 50px !important;
+  /* margin-left: 50% !important; */
+  font-weight: bold !important;
+}
+
+.modal-content{
+  background-color: #dfdcdb !important;
+}
+.modal-body{
+  background-color: #95c0f0;
+  /* direction: rtl; */
+
+}
+.ServicesLeftImg{
+  /* display: flex; */
+  width: 100%;
+  height: 80%;
+  /* margin-left: 50%; */
+}
+.main_sliders{
+  margin-top: 80px !important;
+  /* margin-bottom: 80px; */
+  /* border-radius: 50% !important;  */
+   border: #ffffff solid 50px  !important;
+  /* border-right: #ffffff solid 50px  !important; 
+  border-left: #ffffff solid 50px  !important;  */
+
+}
+/*  */
+.d-block {
+  border-radius: 50px ;
+}
+
+.trigger_det{
+  /* border: #025fc8 solid 2px; */
+  font-weight: bold;
+  border-radius: 20px ;
+  padding: 10px;
+  /* height: 300px; */
+  width: 300px;
+  background: #5A5A5A;
+  color: #ffffff;
+  margin-top: 30%;
+  user-select: none !important;
+}
+/* .trigger_det:hover{
+  background-color:#025fc8 ;
+  color: #f3f9ff;
+} */
+/* .services_buttons{
+
+
+} */
+
+.services_rows{
+  margin-bottom: 3%;
+  background-color:#025fc8 ;
+  color: #ffffff;
+  font-weight: bold !important;
+  /* font-size: 20px !important; */
+  border-radius: 50px;
+}
+.slider{
+  background-image:linear-gradient(to right, #5F64FD, #ece4fd , #5F64FD);   
+   border: 2px solid #c6bbe0;
+   /* /* width: 100% ;  */
+   height: 300px; 
+   max-width: 100%; 
+   text-align: center; 
+   border-radius: 10%; 
+   padding: 50px 0px;
+  margin: 50px 0px;
+  border-radius: 40px;
+  margin-top: 70px;
+} 
+
+
+
+
+
+
+

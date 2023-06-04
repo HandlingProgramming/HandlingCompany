@@ -1,0 +1,97 @@
+.mainfooter{
+    background-color: #025fc8;
+    /* width: 100% ;
+    max-width: 100%; */
+    
+}
+
+.icons{
+    color: #f8fbff !important;
+    width: 30px;
+    height: 30px;
+    /* width: 3% !important;  */
+     /* height:5% !important ; 
+    border-radius: 50px;
+    background-color: aliceblue; */
+    /* border-radius: 50px; */
+
+}
+.icons:hover{
+    /* background-color: #f8fbff !important; */
+
+    color: #000000 !important;
+    border-radius: 5% !important;
+    box-shadow: 0 0.5em 0.5em -0.4em  black !important;
+
+    /* box-shadow: 0 0.5em 0.5em -0.4em !important; */
+    transform: translateY(-0.25em) !important; 
+}
+
+.copyright{
+    color: #f8fbff;
+}
+.footer_company_name{
+    color: #fcfdff;
+    margin-left: 1% ;
+    text-decoration: none;
+}
+.footer_company_name:hover{
+    color: black;
+    font-weight: bold;
+    margin-left: 1% ;
+    text-decoration: none;
+    /* box-shadow: 0 0.5em 0.5em -0.4em !important; */
+    box-shadow: 0 0.5em 0.5em -0.4em  black !important;
+
+    transform: translateY(-0.25em) !important; 
+    font-weight: bold;
+}
+
+
+.elfayez{
+    width: 40px;
+    height: 30px;
+    /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-between; */
+  justify-content: center;
+  z-index: 100;
+  /* cursor: pointer; */
+   margin-top: 15px;
+   margin-right: 20px;
+  /* margin-left: 15px;  */
+  /* background: #ffffff3d; */
+  /* background: linear-gradient(100deg, #00b4db 0%, #6dd5ed 100%); */
+  /* background: linear-gradient(0deg,#025fc8 0%, rgba(80,146,219,1) 35%, rgba(85,165,255,0.25253851540616246) 100%); */
+  /* box-shadow: rgba(17, 17, 26, 0.486) 0px 4px 16px,
+	  rgba(17, 17, 26, 0.05) 0px 8px 32px; */
+  /* border-radius: 50px; */
+  transition: 0.1s;
+  overflow: hidden;
+  /* background-color: aliceblue; */
+
+  
+
+
+animation-name: grow-shrink;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes grow-shrink {
+
+    10% { transform: scale(1); }
+    20% { transform: scale(1); } 
+    40% { transform: scale(1); }
+    80% { transform: scale(1); }
+    }
+
+    .footer_p{
+        color: #f8fbff;
+        /* font-weight: bold; */
+        font-size: 20px !important;
+    }
