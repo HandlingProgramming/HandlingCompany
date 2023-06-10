@@ -22,27 +22,34 @@ export default function App() {
                        تحت رعايه الفايز جروب
                        {/* <MDBIcon fab icon="whatsapp" className='icons' /> */}
                        </p>
-
                    </div>          
           </div> 
 
             <div class="row" className='text-center p-4' >
                <a href="https://www.facebook.com/profile.php?id=100090016143151" className='me-4 text-reset '>
-                  <MDBIcon fab icon="facebook-f" className='icons'/>
+                  <MDBIcon fab icon="facebook-f" className='icons' id="face_icon"/>
                 </a>
-                <a href="https://twitter.com/handlingpr28790" className='me-4 text-reset icons'>
-                  <MDBIcon fab icon="twitter" className='icons' />
+                <a href="https://twitter.com/handlingpr28790" className='me-4 text-reset '>
+                  <MDBIcon fab icon="twitter" className='icons' id="twitter_icon" />
                 </a>
-                <a href="handlingprograming@gmail.com" className='me-4 text-reset icons'>
-                  <MDBIcon fab icon="google" className='icons' />
-                </a>
+                {/* <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" className='me-4 text-reset icons'>
+                  <MDBIcon fab icon="google" className='icons' id="gmail_icon"/>
+                </a> */}
 
-                <a href="https://www.linkedin.com/in/han-pro-70967b26a/" className='me-4 text-reset icons'>
-                  <MDBIcon fab icon="linkedin" className='icons' />
+                <a href="https://www.linkedin.com/in/han-pro-70967b26a/" className='me-4 text-reset '>
+                  <MDBIcon fab icon="linkedin" className='icons' id="linkedin_icon" />
                 </a>
               <a href='https://maps.app.goo.gl/AxApGLnBd5nZqgjg8' className='me-4 text-reset'>
-                  {/* <MDBIcon fab icon="instagram"  className='icons'/> */}
-                  <MDBIcon fas icon="map-marker-alt" className='icons' />
+                  <MDBIcon fas icon="map-marker-alt" className='icons' id="location_icon" />
+                </a>
+
+                <a href='https://api.whatsapp.com/send/?phone=%2B201555341989&text&type=phone_number&app_absent=0' className='me-4 text-reset'>
+
+                  <MDBIcon fab icon="whatsapp" className='icons'id="whatsapp_icon" />  
+                </a>
+
+                <a href='https://www.youtube.com/channel/UCviRVkh4-sodG40oJP3N04w' className='me-4 text-reset'>
+                <MDBIcon fab icon="youtube" className='icons'id="youtube_icon" />
                 </a>
           </div> 
           

@@ -8,8 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
-
+import whatsapp from '../../assets/whatsapp.png'
 import designlogo from '../../assets/designlogo.png'
 
  const Navs = ()=>{
@@ -17,7 +16,7 @@ import designlogo from '../../assets/designlogo.png'
     
 <Fragment>
 
-        <Navbar bg="light" expand="lg" fixed="top">
+        <Navbar collapseOnSelect bg="light" expand="lg" fixed="top">
           <Container fluid>
           <NavLink eventKey="1" as={Link} to="/Home" > 
           <img src={logo} title="logo" className="logopng" eventKey="1" as={Link} to="/Home"></img>
@@ -28,19 +27,18 @@ import designlogo from '../../assets/designlogo.png'
             <Navbar.Collapse id="navbarScroll">
               <Nav
                 className="me-auto my-2 my-lg-0"
-                style={{ maxHeight: '100px' }}
-                navbarScroll
+                // style={{ maxHeight: '100px' }}
+                // navbarScroll
               >
             <NavLink eventKey="1" as={Link} to="/Home" > Home</NavLink>
             <NavLink eventKey="2" as={Link} to="/Services" > Service</NavLink>
             <NavLink eventKey="3" as={Link} to="/Our_Project" > Our Project</NavLink>
-           <NavLink eventKey="4" as={Link} to="/About" > About</NavLink>          
+           <NavLink eventKey="4" as={Link} to="/About" > About</NavLink>   
               </Nav>
 
               {/* <NavLink  className="d-flex"eventKey="1" as={Link} to="/Contact_Us" > contact</NavLink> */}
 
-              {/* <Button variant="outline-success"  className="d-flex"eventKey="1" as={Link} to="/Contact_Us">han design</Button> */}
-
+                 <p className="navs_phone"> <img src={whatsapp} className="navs_whatsapp_icon"></img> +201555341989 </p>
                 <Button variant="outline-success"  className="d-flex"eventKey="1" as={Link} to="/Contact_Us">Contact</Button>
   
             </Navbar.Collapse>

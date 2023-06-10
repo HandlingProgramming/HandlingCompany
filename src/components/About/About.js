@@ -22,7 +22,9 @@ const About =()=>{
                                 </div>
                                 <div class="about-us-info">
                                     <h2 className="about_main_title">Handling Programming Company </h2>
-                                    <p class="about-us-p">Digital Upgrade, located in Evansville, IN, makes it easy for businesses to create and manage their digital presence and logistics, meaning we can make your business more efficient and profitable! We believe in our community and want to help our local business economy grow and expand. We believe in our clients, and want to assist in their digital success. The D-UP team grades ourselves on outcomes, not on sales.</p>
+                                    <p class="about-us-p">
+                                    تحقيق اهدافك المهنية عن طريق خلق حلول جديدة لأغلب المشكلات التى تواجه رواد الأعمال وأصحاب الشركات فى مختلف الأسواق. كما تعمل الشركة على توفير أقصى سبل الراحة والسهولة فى التحكم بعلامتك التجارية بمجهود اقل وفى اسرع وقت . 
+                                        </p>
                                     {/* <a href="#" title="About Us Button">ABOUT US</a> */}
 
                                     <div class="row" className='text-center p-4' >
@@ -53,7 +55,9 @@ const About =()=>{
                                 </div>
                             <div class="history-info">
                                 <h2>Han design</h2>
-                                <p>In 2018, technology companies, Desktop Doctors & Digital Upgrade found a new place to call home, at 816 N. 9th Ave. Since the takeover of the 118-year-old building (formally Stippler Tool & Supply and Crown Chair Company), there have been many renovations completed to preserve this local piece of Evansville, IN history.</p>
+                                <p>
+                                نطمح إلى تحقيق التواجد بعلامة تجارية قوية والانتشار لأعمالك على أرض الواقع بجانب منصات التواصل الاجتماعى . وإدارة منصات السوشيال ميديا بخطط استراتيجية مدروسة وتصميمات جذابة تعبر عن هوية علامتك التجارية للانتقال لمستوى أخر من النجاح والتطور. 
+                                    </p>
                                 {/* <button  class="btn11">See Our Projects <div></div> </button> */}
                                 <div class="row" className='text-center p-4' >
                                         <a href="https://www.facebook.com/handesignC/" className='me-4 text-reset icons'>

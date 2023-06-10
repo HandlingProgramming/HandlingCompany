@@ -84,39 +84,13 @@ nav a{
 
 nav a:hover{
     color:#000000 !important;
-    /* font-size:20px !important; */
     font-weight: bold; 
-    /* text-transform: uppercase;  */
-    /* letter-spacing: 2px;  */
-    /* margin: 10px; */
-    /* text-decoration: underline; */
-    background-color: #ffffff;
-    /* box-shadow: 0 0.5em 0.5em -0.4em  black !important; */
-
 }
 .logopng{
-    /* max-width: 100%; */
-    /* width: 50px;
-    
-    /* border-radius: 50%; */
-    /* background: #ffffff; */
-    /* border-radius: 50%; */
-    /* margin: 7px 300px 7px 10px; */
-
-    /* height: 50px;  */
-    /* width: 20%; */
     margin-left: 10px;
     margin-right: 200px;
 }
-/* .logopng:hover{ */
-    /* max-width: 100%; */
-    /* width: 70px;
-    height: 70px; */
-    /* border-radius: 20px;
-    background: #f7941d; */
-    /* border-radius: 50%;
-    margin: 7px 20px 7px 7px; */
-/* } */
+
 
  nav #last{
     /* border: #eceffc solid 3px; */
@@ -147,12 +121,39 @@ nav #last:hover{
 
 }
 
-/* .Dropdown.Item{
-    background-color: aqua;
-} */
+.navs_phone{
+   font-size: 15px ;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin-top: 20px;
+    margin-right: 60px;
+    transition: 0.5s;
+    overflow: hidden;
+    animation-name: grow-shrink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    color: #f8731b;
+
+}
 
 
+@keyframes grow-shrink {
 
+    10% { transform: scale(1.2); }
+    20% { transform: scale(1); } 
+    40% { transform: scale(1.2); }
+    80% { transform: scale(1); }
+    90% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+    }
+
+
+    .navs_whatsapp_icon{
+        width: 10%;
+        cursor:auto;
+
+    }
 .d-flex{
    background-color: #025fc8 !important;
    color: #fffdfb  !important;
@@ -162,17 +163,57 @@ nav #last:hover{
 .toggle_nav{
     background-color: #025fc8 !important;
     color: rgb(148, 146, 146) !important;
-    margin-left: 80% !important;
-
-    margin-top: -50px;
+    /* margin-left: 80% !important; */
+    /* margin-top: -50px; */
+    
+    
 }
-.toggle_nav:hover{
+
+@media screen and (max-width: 900px) {
+    #navbarScroll {
+      background-color: white !important;
+      /* color: rgb(80, 255, 57) !important;    */
+     }
+
+
+  }
+
+
+@media screen and (max-width: 860px) {
+    #navbarScroll {
+      background-color: white !important;
+      /* color: rgb(80, 255, 57) !important;    */
+     }
+
+  }
+
+
+  @media screen and (max-width: 747px) {
+    #navbarScroll {
+        background-color: white !important;
+        /* color: rgb(168, 27, 27) !important;    */
+       }
+
+    }
+  
+  @media screen and (max-width: 644px) {
+    #navbarScroll {
+        background-color: white !important;
+        /* color: rgb(194, 0, 120) !important;    */
+       }
+
+    }
+
+    
+
+
+/* .toggle_nav:hover{
     background-color: #a6c9f1 !important;
     color: rgb(148, 146, 146) !important;
     margin-left: 80% !important;
 
     margin-top: -50px;
-}
+} */
 #navbarScroll{
     text-align: right !important;
     justify-content: right !important;

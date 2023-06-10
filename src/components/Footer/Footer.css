@@ -47,7 +47,40 @@
     font-weight: bold;
 }
 
+#whatsapp_icon:hover{
+    color: rgb(0, 255, 21) !important;
+    box-shadow: none !important;
+    transform:none!important; 
+}
 
+/* #face_icon:hover{
+    color:#4867AA !important;
+    box-shadow: none !important;
+    transform:none!important; 
+    background-color: #f8fbff !important;
+} */
+#twitter_icon:hover{
+    color:#3ab3ff !important;
+    box-shadow: none !important;
+    transform:none!important; 
+}
+#linkedin_icon:hover{
+    color:#0daaff !important;
+    box-shadow: none !important;
+    transform:none!important; 
+}
+
+#location_icon:hover{
+    color:#be1313 !important;
+    box-shadow: none !important;
+    transform:none!important;
+}
+#youtube_icon:hover{
+    color:#be1313 !important;
+    box-shadow: none !important;
+    transform:none!important;
+    /* background-color: #f8fbff !important; */
+}
 .elfayez{
     width: 40px;
     height: 30px;

@@ -6,7 +6,7 @@ import Services from './components/Services/Services';
 import About  from './components/About/About';
 import Sidenav from './components/Sidenav/Sidenav';
 import {
-  // BrowserRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link,
@@ -50,6 +50,7 @@ function App() {
     
     <Navs> </Navs> 
       <Routes>
+      <Route path='/' element={<Home></Home>}></Route>
           <Route path='/Home' element={<Home></Home>}></Route>
           <Route path='/About' element={<About></About>}></Route>
           <Route path='/Our_Project' element={<Our_project></Our_project>}></Route>
@@ -59,11 +60,6 @@ function App() {
           <Route path='/HanSystem' element={<HanSystem></HanSystem>}></Route>
           <Route path='/ProductTracking' element={<ProductTracking></ProductTracking>}></Route>
           <Route path='/SHSSales' element={<SHSSales></SHSSales>}></Route>
-
-
-
-
-
       </Routes>
       <Sidenav/>
       
